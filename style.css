@@ -1,3 +1,9 @@
+.white{
+    color: white;
+}
+p{
+    color: #383838;
+}
 #brand{
     height: 40px;
 }
@@ -5,6 +11,14 @@
     border-radius: 0px;
     background: white;
     box-shadow: none;
+    border: none;
+    height: 40px;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+.navbar-nav>li>a{
+    padding-right: 30px;
+    font-size: 18px;
 }
 .navbar-brand{
     padding: 7px;
@@ -15,6 +29,8 @@
     text-shadow: none;
     border-color: white;
     box-shadow: none;
+    font-size: 18px;
+    padding: 8px 25px 8px 25px;
 }
 
 .btn.btn-default.navbar-btn:hover{
@@ -23,6 +39,9 @@
     border-color: #0088ff;
 }
 
+.nav.navbar-nav.navbar-right{
+    background-color: white;
+}
 .nav.navbar-nav.navbar-right>li>a{
     color:#003d7c;
 }
@@ -31,10 +50,263 @@
     color:#0088ff;
 }
 #section1{
-    height: auto;
+    position: relative;
     margin-top: 0px;
-    background-image: url(bg-1.png);
+    background:
+    linear-gradient(
+    rgba(0, 93, 185, 0.7),
+    rgba(0, 93, 185, 0.7)
+    ),
+    url('bg-1.png');
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: auto;
+    z-index: -1;
+}
+h1{
+    color: white;
+    font-size: 40px;
+    /* font-weight: bold; */
+    padding-top: 100px;
+}
+h2{
+    color: white;
+    line-height: 0em;
+}
+.btn.btn-primary{
+    background: #0088ff;
+    color: white;
+    text-shadow: none;
+    border: none;
+    box-shadow: none;
+    padding: 14px 20px 14px 20px;
+    font-size: 18px;
+}
+p{
+    font-size: 17px;
+    color: #383838;
+}
+#mock-up{
+    padding-top: 60px;
+}
+.your-class{
+    position: absolute;
+    z-index: 2;
+    margin: 110px 125px;
+}
+
+
+.bg-iphone{
+    background-image: url('img/iphone.png');
+    height: 800px;
+    background-position: 100px 50px;
+    background-repeat: no-repeat;
+    overflow: visible;
+}
+
+
+/* @media screen and (max-width: 768px ){
+    .bg-iphone{
+        background-image: url('img/iphone.png');
+        width: 50%;
+        height: 50%;
+        background-position: 100px 50px;
+        background-repeat: no-repeat;
+        overflow: visible;
+    }
+} */
+
+.slick-dots li button {
+    background: url('http://via.placeholder.com/350x150');
+    text-indent: -9999px;
+    overflow:hidden;
+    /* more CSS */
+}
+.left.carousel-control{
+    background: transparent;
+}
+.right.carousel-control{
+    background: transparent;
+}
+/* Carousel Fading slide */
+.carousel-fade .carousel-inner { 
+    background: transparent; 
+    margin: 110px 125px;
+    width: 100%;
+    
+}
+.carousel-fade .carousel-control { z-index: 2; }  
+.carousel-fade .item {
+    opacity: 0;
+    -webkit-transition-property: opacity;
+    -moz-transition-property: opacity;
+    -o-transition-property: opacity;
+    transition-property: opacity;
+}
+
+.carousel-fade .next.left,
+.carousel-fade .prev.right,
+.carousel-fade .item.active { opacity: 1; }
+
+.carousel-fade .active.left,
+.carousel-fade .active.right {
+    left: 0;
+    opacity: 0;
+    z-index: 1;
+}
+
+.slick-prev, .slick-next{
+    display: none;
+}
+.slider-nav{
+    z-index: 4;
+    color: white;
+}
+.carousel-detail{
+    color: white;
+    font-size: 18px;
+    box-sizing: border-box;
+    text-align: center;
+}
+#customer{
+    position: absolute;
+    top: 20px;
+}
+#help{
+    font-size: 18px;
+}
+#section2{
+    background-color: #ececec;
+    background-size: cover;
+    margin-top: 400px;
+    display: block;
+    box-sizing: border-box;
+}
+.how{
+    padding-top: 30px;
+    font-size: 50px;
+    text-align: center;
+    color: #383838;
+}
+.play{
+    color: #0088ff;
+    text-align: center;
+    font-size: 18px;
+}
+.glyphicon.glyphicon-play-circle{
+    top: 6px;
+    font-size: 25px;
+}
+.ipad{
+    padding: 50px 0 0 30px;
+}
+.track{
+    color: #383838;
+    font-size: 30px;
+    padding-top: 200px;
+}
+div>p{
+    color: #383838;
+}
+#section3{
+    margin-top: 40px;
+}
+#section4{
+    /* margin-top:40px; */
+    background-color: #ececec;
+}
+.smart{
+    padding-top: 50px;
+    color: #383838;
+    font-size: 30px;
+}
+.bg-macbook{
+    background-image: url('img/macbook.png');
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
+    height: 500px;
+}
+#screen{
+    position: relative;
+    margin-top: 56px;
+    margin-left: 8px;
+    
+}
+.btn-success{
+    background-image: none;
+    padding: 15px;
+    background-color: #12ca64;
+    border: none;
+    text-shadow: none;
+}
+.btn-success:hover{
+    border: #12ca64 2px solid;
+    background-color: white;
+    color: #12ca64
+}
+.feedback{
+    font-size: 14px;
+    font-style: italic;
+    text-align: center;
+}
+/* .logo{
+    padding-left: 460px;
+} */
+.founder{
+    color: #0088ff
+}
+#section6{
+    background-color: #ececec;
+    padding-top: 50px;
+}
+.sth{
+
+    
+}
+#section7{
+    background:
+    linear-gradient(
+    rgba(0, 93, 185, 0.7),
+    rgba(0, 93, 185, 0.7)
+    ),
+    url('img/footer.png');
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: 
+}
+.btn-danger{
+    background-image: none;
+    padding: 10px 20px 10px 20px;
+    background-color: #fb1ca4;
+    border: none;
+    text-shadow: none;
+}
+.btn-danger:hover{
+    background-image: none;
+    padding: 10px 20px 10px 20px;
+    background-color: #fb1ca4;
+    border: none;
+    text-shadow: none;
+}
+/* #footer-2{
+    background-image: url('img/footer-2.png');
+    background-size: cover;
+    background-repeat: repeat-x;
+    height: 150px;
+    position: absolute;
+    bottom: 0;
+} */
+#section8{
+    background-color: #0b0d1e;
+    height: 200px;
+}
+ul>li>a{
+    color: white;
+    text-shadow: none;
+}
+.navbar-brand, .navbar-nav>li>a{
+    text-shadow: none;
 }
