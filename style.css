@@ -149,7 +149,7 @@ h4{
 /* #iphone{
 } */
 .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img{
-    max-width: 66%;
+    max-width: 73%;
     margin-top: 50px;
     margin-left: 14px;
 }
